@@ -18,8 +18,8 @@ export class CategoriasPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad CategoriasPage');
+  irParaCategoria(){
+    this.navCtrl.setRoot('LogoffPage');
   }
 
 }
