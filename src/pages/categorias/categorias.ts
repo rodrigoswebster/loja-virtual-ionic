@@ -19,7 +19,7 @@ export class CategoriasPage {
   }
 
   irParaCategoria(){
-    this.navCtrl.setRoot('LogoffPage');
+    this.navCtrl.push('CategoriaPage');
   }
 
 }

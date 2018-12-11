@@ -18,8 +18,8 @@ export class CategoriaPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad CategoriaPage');
+  irParaProduto(){
+    this.navCtrl.push('ProdutoPage');
   }
 
 }
