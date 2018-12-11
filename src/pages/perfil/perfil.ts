@@ -18,8 +18,20 @@ export class PerfilPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad PerfilPage');
+  irParaHome(){
+    this.navCtrl.push('HomePage');
+  }
+
+  irParaCompras(){
+    this.navCtrl.push('ComprasPage');
+  }
+
+  irParaAtualizarPerfil(){
+    this.navCtrl.push('AtualizarPerfilPage');
+  }
+
+  irParaSair(){
+    this.navCtrl.setRoot('LogoffPage');
   }
 
 }
