@@ -25,6 +25,7 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Home', component: 'HomePage' },
+      { title: 'Perfil', component: 'PerfilPage' },
       { title: 'Sair', component: 'LogoffPage' }
     ];
 
@@ -42,13 +43,13 @@ export class MyApp {
       .subscribe(
         user => {
           if (user) {
-            this.rootPage = 'CategoriasPage';
+            this.rootPage = 'PerfilPage';
             } else {
               this.rootPage = 'HomePage';
              }
         },
         () => {
-          this.rootPage = 'CategoriasPage';
+          this.rootPage = 'PerfilPage';
         }
       );
 
