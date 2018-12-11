@@ -1,8 +1,8 @@
-  export const FirebaseConfig = {
-    apiKey: "AIzaSyA9R3fNmXy695ECVTTv8O7XivtNxe_kaBc",
-    authDomain: "testelogin-7857e.firebaseapp.com",
-    databaseURL: "https://testelogin-7857e.firebaseio.com",
-    projectId: "testelogin-7857e",
-    storageBucket: "testelogin-7857e.appspot.com",
-    messagingSenderId: "253901890679"
-  };
+export const FirebaseConfig = {
+  apiKey: "AIzaSyDHHORn-WvY0urD_4nAY4dnqBAbPNc40EU",
+  authDomain: "acougue-feae4.firebaseapp.com",
+  databaseURL: "https://acougue-feae4.firebaseio.com",
+  projectId: "acougue-feae4",
+  storageBucket: "",
+  messagingSenderId: "829686891537"
+}
